@@ -88,3 +88,18 @@ main{
 #bygg-hus-eller-överlev-natten {
     background-image:url("../img/bygg-hus-eller-överlev.png");
 }
+#börja-mina-och-skaffa-bra-gear{
+    background-image:url("../img/börja-minea.png");
+}
+
+#du-hittar-en-mobspawner{
+    background-image:url("../img/hitta-mobspawner.png");
+}
+
+#du-hoppar-ner-och-dog{
+    background-image:url("../img/död-av-mobspawner.png");
+}
+
+#försöker-överleva-natten-utan-hus{
+    background-image:url("../img/död-av-mobspawner.png");
+}
