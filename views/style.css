@@ -57,7 +57,7 @@ main{
     background-size:cover;
     grid-template-areas: 
     ". ancortwo ."
-    ". story ancorone"
+    "ancourfour story ancorone"
     ". ancorthree .";
 }
 #start{
@@ -69,4 +69,7 @@ main{
 }
 #foundhorse{
     background-image: url("../img/se-hästen.png");
+}
+#det-är-kväll-du-ser-mobs-spawna{
+    background-image:url("../img/det-blir-nat-du-ser-mobs.png");
 }
