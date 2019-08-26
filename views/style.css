@@ -21,6 +21,10 @@ body{
     overflow: hidden;
 }
 a{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
     text-decoration: none;
     font-size:2em;
     color:white;
@@ -30,11 +34,19 @@ a:hover{
     transform: scale(1.1);
 }
 .ancorone{
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    justify-items: center;
     grid-area: ancorone;
+    text-align: center;
+}
+.ancortwo{
+    grid-area: ancortwo;
+    text-align: center;
+}
+.ancorthree{
+    grid-area: ancorthree;
+    text-align: center;
+}
+.ancorfour{
+    grid-area: ancorfour;
     text-align: center;
 }
 main{
@@ -44,9 +56,9 @@ main{
     grid-template-columns: 33% 33% 33%;
     background-size:cover;
     grid-template-areas: 
-    ". . ."
-    ". . ."
-    ". . .";
+    ". ancortwo ."
+    ". story ancorone"
+    ". ancorthree .";
 }
 #start{
     background-image: url("../img/starta-världen.png");
@@ -54,4 +66,7 @@ main{
     ". title ."
     ". story ancorone"
     ". . .";
+}
+#foundhorse{
+    background-image: url("../img/se-hästen.png");
 }
