@@ -103,3 +103,12 @@ main{
 #försöker-överleva-natten-utan-hus{
     background-image:url("../img/död-av-mobspawner.png");
 }
+#börja-samla-material{
+    background-image: url("../img/samla-material.png");
+}
+#forsätt-samla-material-eller-minea{
+    background-image:url("../img/fortsätt-samla-material.png");
+}
+#du-samlar-material-för-länge{
+    background-image:url("../img/samla-material-för-länge-död.png");
+}
