@@ -128,3 +128,12 @@ main{
 #du-går-på-adventure-och-hittar-häst{
     background-image:url("../img/adventure-hittar-häst.png");
 }
+#du-döper-hästen{
+    background-image: url("../img/alfred-eller-joergen.png");
+}
+#alfred{
+    background-image: url("../img/du-dog-av-mobs-för-du-har-ingen-häst.png");
+}
+#joergen{
+    background-image: url("../img/joergen.png");
+}
