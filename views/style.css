@@ -128,3 +128,11 @@ main{
 #du-går-på-adventure-och-hittar-häst{
     background-image:url("../img/adventure-hittar-häst.png");
 }
+
+#du-dog-av-mobs-eftersom-du-inte-var-tillräckligt-snabb-hem {
+    background-image:url("../img/du-dog-av-mobs-för-du-har-ingen-häst.png"); 
+}
+
+#du-tamar-hästen-och-hinner-hem-innan-det-blir-natt {
+    background-image:url("../img/du-tamar-hästen.png"); 
+}
