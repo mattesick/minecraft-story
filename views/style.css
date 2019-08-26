@@ -88,6 +88,13 @@ main{
 }
 
 #du-hittar-en-mobspawner{
-    background-image:url("../img/du");
+    background-image:url("../img/hitta-mobspawner.png");
 }
 
+#du-hoppar-ner-och-dog{
+    background-image:url("../img/död-av-mobspawner.png");
+}
+
+#försöker-överleva-natten-utan-hus{
+    background-image:url("../img/död-av-mobspawner.png");
+}
