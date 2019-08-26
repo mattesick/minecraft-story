@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.story{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    grid-area: story;
+    color:white;
+    background:rgba(0,0,0,.4);
+    padding:1em;
+}
+.title{
+    grid-area: title;
+    color:white;
+    text-align: center;
+}
+body{
+    margin:0;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    font-size:2em;
+    color:white;
+    transition: ease-in-out all 250ms;
+}
+a:hover{
+    transform: scale(1.1);
+}
+.ancorone{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    grid-area: ancorone;
+    text-align: center;
+}
+main{
+    height:100vh;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+    background-size:cover;
+    grid-template-areas: 
+    ". . ."
+    ". . ."
+    ". . .";
+}
+#start{
+    background-image: url("../img/starta-världen.png");
+    grid-template-areas: 
+    ". title ."
+    ". story ancorone"
+    ". . .";
+}
