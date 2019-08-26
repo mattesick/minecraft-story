@@ -57,7 +57,7 @@ main{
     background-size:cover;
     grid-template-areas: 
     ". ancortwo ."
-    "ancourfour story ancorone"
+    "ancorfour story ancorone"
     ". ancorthree .";
 }
 #start{
@@ -111,4 +111,12 @@ main{
 }
 #du-samlar-material-för-länge{
     background-image:url("../img/samla-material-för-länge-död.png");
+}
+
+#du-försöker-överleva-natten-utan-hus{
+    background-image:url("../img/du-dog-av-mobs-för-du-har-ingen-häst.png");
+}
+
+#det-blir-natt-och-du-ser-mobs-spawna{
+    background-image:url("../img/det-blir-nat-du-ser-mobs.png");
 }
