@@ -144,13 +144,17 @@ main{
 #du-tamar-hästen-och-hinner-hem-innan-det-blir-natt{
     background-image: url("../img/du-tamar-hästen.png");
 }
-
+#du-har-10-obsidian{
+    background-image: url("../img/du-har-10-obsidian.png");
+}
+#bygger-inte-nether-portal{
+    background-image: url("../img/utvecklas-inte.png");
+}
 #du-väljer-att-gå-ner-och-mina-i-två-dagar{
     background-image: url("../img/minear-två-dar-i-sträck.png");
 }
-
-#du-har-10-obsidian{
-    background-image: url("../img/bygger-netherportal.png");
+#du-vill-gå-in-i-protalen{
+    background-image: url("../img/du-vill-gå-in-i-nether-tar-du-med-joergen.png");
 }
 
 #du-väljer-att-inte-bygga-en-netherportal{
