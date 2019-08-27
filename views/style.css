@@ -10,6 +10,7 @@
     color:white;
     background:rgba(0,0,0,.4);
     padding:1em;
+    font-size:2em;
 }
 .title{
     grid-area: title;
@@ -58,7 +59,7 @@ main{
     grid-template-areas: 
     ". ancortwo ."
     "ancorfour story ancorone"
-    ". ancorthree .";
+    ". ancorthree .";   
 }
 #start{
     background-image: url("../img/starta-världen.png");
@@ -136,4 +137,10 @@ main{
 }
 #joergen{
     background-image: url("../img/joergen.png");
+}
+#du-dog-av-mobs-eftersom-du-inte-var-tillräckligt-snabb-hem{
+    background-image: url("../img/du-dog-av-mobs-för-du-har-ingen-häst.png");
+}
+#du-tamar-hästen-och-hinner-hem-innan-det-blir-natt{
+    background-image: url("../img/du-tamar-hästen.png");
 }
