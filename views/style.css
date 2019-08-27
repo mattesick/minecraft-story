@@ -59,7 +59,7 @@ main{
     grid-template-areas: 
     ". ancortwo ."
     "ancorfour story ancorone"
-    ". ancorthree .";   
+    ". ancorthree .";
 }
 #start{
     background-image: url("../img/starta-världen.png");
