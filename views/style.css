@@ -156,3 +156,19 @@ main{
 #du-väljer-att-inte-bygga-en-netherportal{
     background-image: url("../img/död-av-mobspawner.png");
 }
+
+#du-går-in-i-portalen-med-joergen{
+    background-image: url("../img/joergen-dör.png")
+}
+
+#joergen2 {
+    background-image: url("../img/joergen2.png")  
+}
+
+#du-utforskar-nether {
+    background-image: url("../img/utforskar-nether.png")  
+}
+
+#dödar-wither-skeleton {
+    background-image: url("../img/utforskar-nether.png")  
+}
