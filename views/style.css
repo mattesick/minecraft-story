@@ -29,6 +29,7 @@ a{
     text-decoration: none;
     font-size:2em;
     color:white;
+    text-shadow: 2px 2px 4px #000000;
     transition: ease-in-out all 250ms;
 }
 a:hover{
@@ -101,7 +102,7 @@ main{
     background-image:url("../img/död-av-mobspawner.png");
 }
 
-#försöker-överleva-natten-utan-hus{
+#försöker-överleva-natten-utan-hus, #dör-av-wither{
     background-image:url("../img/död-av-mobspawner.png");
 }
 #börja-samla-material{
@@ -162,21 +163,27 @@ main{
 }
 
 #du-går-in-i-portalen-med-joergen{
-    background-image: url("../img/joergen-dör.png")
+    background-image: url("../img/joergen-dör.png");
 }
 
 #joergen2 {
-    background-image: url("../img/joergen2.png")  
+    background-image: url("../img/joergen2.png");  
 }
 
 #du-utforskar-nether {
-    background-image: url("../img/utforskar-nether.png")  
+    background-image: url("../img/utforskar-nether.png");  
 }
 
 #dödar-wither-skeleton {
-    background-image: url("../img/utforskar-nether.png")  
+    background-image: url("../img/du-dödar-wither-skeletons.png");  
 }
 
 #dödar-wither {
-    background-image: url("../img/dödar")  
+    background-image: url("../img/dödar-wither.png");
+}
+#zombie-army{
+    background-image:url("../img/du-har-wither-skulls.png");
+}
+#sämst-på-sikta{
+    background-image:url("../img/samla-material-för-länge-död.png");
 }
