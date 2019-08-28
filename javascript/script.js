@@ -21,4 +21,5 @@ document.addEventListener("keydown", e => {
             this.document.location.href = road.href;
         //ancorfour
     }
-})
+});
+window.history.forward();
