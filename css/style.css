@@ -1,3 +1,4 @@
+@import url("https://fontlibrary.org/face/minecraftia");
 *{
     box-sizing: border-box;
 }
@@ -8,10 +9,31 @@
     justify-items: center;
     grid-area: story;
     color:white;
-    background:rgba(0,0,0,.4);
+    background:rgba(122,122,122,0.8);
     padding:1em;
     font-size:2em;
+    border-radius: 4px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    border: 4px solid black;
 }
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgb(122,122,122), 0 0 20px rgb(122,122,122), 0 0 25px rgb(122,122,122), 0 0 30px rgb(122,122,122), 0 0 35px rgb(122,122,122);
+    }
+    
+    to {
+      box-shadow: 0 0 10px #fff, 0 0 15px rgb(140,146,196), 0 0 20px rgb(140,146,196), 0 0 25px rgb(140,146,196), 0 0 30px rgb(140,146,196), 0 0 35px rgb(140,146,196), 0 0 40px rgb(140,146,196);
+    }
+  }
+
 .title{
     grid-area: title;
     color:white;
@@ -20,20 +42,25 @@
 body{
     margin:0;
     overflow: hidden;
+    font-family: 'MinecraftiaRegular' !important; 
 }
 a{
+    padding:0.6em;
+    border:4px solid black;
+    margin:0.5em;
+    background: rgb(122,122,122);
     display: flex;
     align-self: center;
     justify-content: center;
     justify-items: center;
     text-decoration: none;
-    font-size:2em;
+    font-size:1.7em;
     color:white;
     text-shadow: 2px 2px 4px #000000;
     transition: ease-in-out all 250ms;
 }
 a:hover{
-    transform: scale(1.1);
+    background: rgb(140,146,196);
 }
 #ancorone{
     grid-area: ancorone;
@@ -51,23 +78,30 @@ a:hover{
     grid-area: ancorfour;
     text-align: center;
 }
+.choice{
+    grid-area: choice;
+    display:flex;
+    justify-content: center;
+}
 main{
     height:100vh;
     display: grid;
-    grid-template-rows: 33% 33% 33%;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
     background-size:cover;
     grid-template-areas: 
-    ". ancortwo ."
-    "ancorfour story ancorone"
-    ". ancorthree .";
+    ". . . ."
+    ". story story ."
+    ". story story ."
+    "choice choice choice choice";
 }
 #start{
     background-image: url("../img/starta-världen.png");
     grid-template-areas: 
-    ". title ."
-    ". story ancorone"
-    ". . .";
+    ". title title ."
+    ". story story ."
+    ". story story ."
+    "choice choice choice choice";
 }
 #foundhorse{
     background-image: url("../img/se-hästen.png");
