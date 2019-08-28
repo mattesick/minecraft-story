@@ -1,7 +1,7 @@
 document.addEventListener("keydown", e => {
     let road;
     if (e.key == "1") {
-        road = document.getElementById("ancorone");
+        road = document.getElementById("anco    rone");
         if (road != null)
             this.document.location.href = road.href;
         //ancorone
