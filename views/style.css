@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+}
+.story{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    grid-area: story;
+    color:white;
+    background:rgba(0,0,0,.4);
+    padding:1em;
+    font-size:2em;
+}
+.title{
+    grid-area: title;
+    color:white;
+    text-align: center;
+}
+body{
+    margin:0;
+    overflow: hidden;
+}
+a{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    text-decoration: none;
+    font-size:2em;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    transition: ease-in-out all 250ms;
+}
+a:hover{
+    transform: scale(1.1);
+}
+.ancorone{
+    grid-area: ancorone;
+    text-align: center;
+}
+.ancortwo{
+    grid-area: ancortwo;
+    text-align: center;
+}
+.ancorthree{
+    grid-area: ancorthree;
+    text-align: center;
+}
+.ancorfour{
+    grid-area: ancorfour;
+    text-align: center;
+}
+main{
+    height:100vh;
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 33% 33% 33%;
+    background-size:cover;
+    grid-template-areas: 
+    ". ancortwo ."
+    "ancorfour story ancorone"
+    ". ancorthree .";
+}
+#start{
+    background-image: url("../img/starta-världen.png");
+    grid-template-areas: 
+    ". title ."
+    ". story ancorone"
+    ". . .";
+}
+#foundhorse{
+    background-image: url("../img/se-hästen.png");
+}
+
+#hoppa-hästen{
+    background-image: url("../img/hoppa-på-hästen.png");
+}
+
+#det-är-kväll-du-ser-mobs-spawna{
+    background-image:url("../img/det-blir-nat-du-ser-mobs.png");
+}
+
+#hoppa-på-hästsen-och-skoja-rundor{
+    background-image:url("../img/hoppa-på-hästen.png");
+}
+#du-hittar-bra-gear-och-dödar-mobs{
+    background-image: url("../img/dödar-alla-mobs-i-mobspawnern.png");
+}
+#bygg-hus-eller-överlev-natten {
+    background-image:url("../img/bygg-hus-eller-överlev.png");
+}
+#börja-mina-och-skaffa-bra-gear{
+    background-image:url("../img/börja-minea.png");
+}
+
+#du-hittar-en-mobspawner{
+    background-image:url("../img/hitta-mobspawner.png");
+}
+
+#du-hoppar-ner-och-dog{
+    background-image:url("../img/död-av-mobspawner.png");
+}
+
+#försöker-överleva-natten-utan-hus, #dör-av-wither{
+    background-image:url("../img/död-av-mobspawner.png");
+}
+#börja-samla-material{
+    background-image: url("../img/samla-material.png");
+}
+#forsätt-samla-material-eller-minea{
+    background-image:url("../img/fortsätt-samla-material.png");
+}
+#du-samlar-material-för-länge{
+    background-image:url("../img/samla-material-för-länge-död.png");
+}
+#byggde-hus{
+    background-image:url("../img/bygger-hus.png");
+}
+#samla-material-för-adventuretime{
+    background-image:url("../img/samla-material-för-adventure-time.png");
+}
+#du-försöker-överleva-natten-utan-hus{
+    background-image:url("../img/du-dog-av-mobs-för-du-har-ingen-häst.png");
+}
+
+#det-blir-natt-och-du-ser-mobs-spawna{
+    background-image:url("../img/det-blir-nat-du-ser-mobs.png");
+}
+#du-går-på-adventure-och-hittar-häst{
+    background-image:url("../img/adventure-hittar-häst.png");
+}
+#du-döper-hästen{
+    background-image: url("../img/alfred-eller-joergen.png");
+}
+#alfred{
+    background-image: url("../img/du-dog-av-mobs-för-du-har-ingen-häst.png");
+}
+#joergen{
+    background-image: url("../img/joergen.png");
+}
+#du-dog-av-mobs-eftersom-du-inte-var-tillräckligt-snabb-hem{
+    background-image: url("../img/du-dog-av-mobs-för-du-har-ingen-häst.png");
+}
+#du-tamar-hästen-och-hinner-hem-innan-det-blir-natt{
+    background-image: url("../img/du-tamar-hästen.png");
+}
+#du-har-10-obsidian{
+    background-image: url("../img/du-har-10-obsidian.png");
+}
+#bygger-inte-nether-portal{
+    background-image: url("../img/utvecklas-inte.png");
+}
+#du-väljer-att-gå-ner-och-mina-i-två-dagar{
+    background-image: url("../img/minear-två-dar-i-sträck.png");
+}
+#du-vill-gå-in-i-protalen{
+    background-image: url("../img/du-vill-gå-in-i-nether-tar-du-med-joergen.png");
+}
+
+#du-väljer-att-inte-bygga-en-netherportal{
+    background-image: url("../img/död-av-mobspawner.png");
+}
+
+#du-går-in-i-portalen-med-joergen{
+    background-image: url("../img/joergen-dör.png");
+}
+
+#joergen2 {
+    background-image: url("../img/joergen2.png");  
+}
+
+#du-utforskar-nether {
+    background-image: url("../img/utforskar-nether.png");  
+}
+
+#dödar-wither-skeleton {
+    background-image: url("../img/du-dödar-wither-skeletons.png");  
+}
+
+#dödar-wither {
+    background-image: url("../img/dödar-wither.png");
+}
+#zombie-army{
+    background-image:url("../img/du-har-wither-skulls.png");
+}
+#sämst-på-sikta{
+    background-image:url("../img/samla-material-för-länge-död.png");
+}
