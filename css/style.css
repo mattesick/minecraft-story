@@ -35,19 +35,19 @@ a{
 a:hover{
     transform: scale(1.1);
 }
-.ancorone{
+#ancorone{
     grid-area: ancorone;
     text-align: center;
 }
-.ancortwo{
+#ancortwo{
     grid-area: ancortwo;
     text-align: center;
 }
-.ancorthree{
+#ancorthree{
     grid-area: ancorthree;
     text-align: center;
 }
-.ancorfour{
+#ancorfour{
     grid-area: ancorfour;
     text-align: center;
 }
